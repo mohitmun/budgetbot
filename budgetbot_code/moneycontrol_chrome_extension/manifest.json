@@ -1,0 +1,16 @@
+{
+  "name": "BudgetBot Moneycontrol",
+  "description": "BudgetBot Moneycontrol",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "BudgetBot Moneycontrol"
+  },
+  "manifest_version": 2
+}
